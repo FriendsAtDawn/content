@@ -7,13 +7,13 @@ date: 2025-04-15
 slug: "no-valida"
 ---
 
-## No veo el coso ese en mi pantalla, acá.
+## _No veo el coso ese en mi pantalla, acá._
 
 Más de uno de nosotros se habrá fijado que los oficios internos o a instituciones con las cuales el PJ tiene acuerdos, está firmado digitalmente pero en nuestras pcs dice que no valida.
 
-Era una especie de cosa nostra cuando los oficios corrían internamente, porque sabemos que las firmas son tales aunque no aparezca en la pantalla que lo son.
+Era una especie de `cosa nostra` cuando los oficios corrían internamente, porque sabemos que las firmas son tales aunque no aparezca en la pantalla que lo son.
 
-Pero la CSJ firmo acuerdos con otros entes estatales que, al menos de alguna de ellas, debería saber de que se trata una firma digital porque... es su trabajo.
+Pero la Corte Suprema firmo acuerdos con otros entes estatales las que, al menos de alguna de ellas, debería saber de que se trata una firma digital porque... es su trabajo.
 
 Muchos Juzgados han vuelto al papel en estos casos. Qué se le va a hacer.
 
@@ -31,15 +31,17 @@ Son tres firmas, el de los Actuarios, el que usan para los oficios concretamente
 
 Uno puede leer un año entero la documentación del SSL y no enterarse de nada. Su servidor hizo un esquema básico del que se usa para firmar. Es altamente centralizado y... creo que funciona, funciona mejor que el GPG que no es centralizado pero... `Full stop.`
 
-{{< img src="https://minimum-tomato-hamster.myfilebase.com/ipfs/QmR2TosQ2d4T6XbHTz1bh78BEH3ctQXPszab5kQAeUofJb" width="100%">}}
+{{< ipfs url="QmR2TosQ2d4T6XbHTz1bh78BEH3ctQXPszab5kQAeUofJb" width="100%" >}}
 
 Este artículo se escribirá por partes porque me doy cuenta de que el dibujo no servirá mucho sólo. 
 
 Alguno se podría preguntar si la CSJ no siendo una autoridad reconocida puede emitir certificados... La respuesta corta es sí. Como cualquier otra persona, tiene capacidad de validar. Es más, una posición privilegiada para hacerlo.
 
-La respuesta larga no es para un blog.
-
 Sí podría serlo el exponer los pasos para hacerse de una firma digital **no cualificada** que al final del día, es lo mismo que una.
+
+## Certificador no autorizado
+
+La certificacación expedida por un certificador no autorizado no es que no sea válida. Bajo ciertas condiciones es tan válida como la expedida por uno autorizado. 
 
 
 
