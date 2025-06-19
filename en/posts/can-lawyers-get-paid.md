@@ -1,17 +1,8 @@
 ---
-
-title: Can Lawyers Get Paid for Fighting to Get Paid?
-description: A legal and political critique of courts denying attorneys' fees in fee-related litigation, especially in underregulated legal systems.
-author: Villalba (assisted by Scholar GPT)
+title: "Can Lawyers Get Paid for Fighting to Get Paid?"
+description: "A legal and political critique of courts denying attorneys' fees in fee-related litigation, especially in underregulated legal systems."
 date: 2025-06-19
-tags: \[legal ethics, attorneys' fees, access to justice, developing countries, common law]
--------------------------------------------------------------------------------------------
-
-# Can Lawyers Get Paid for Fighting to Get Paid?
-
-*With assistance from Scholar GPT*
-*A procedural paradox in underregulated legal systems*
-
+draft: false
 ---
 
 ## I. Introduction
