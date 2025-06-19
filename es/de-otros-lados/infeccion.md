@@ -8,13 +8,13 @@ featured_image: "/images/pdf.png"
 
 ![](https://img.shields.io/badge/document_v.-0.5-blue)
 
-Esta entrada no quiere desacreditar al Judisoft(TM). La implementación del sistema es de lejos el salto mas importante que ha tenido el acceso a la justicia y contribuye de manera grandiosa a abaratar los costos del proceso. En todo sentido es un éxito.
+Esta entrada no quiere desacreditar al Judisoft(TM). La implementación del sistema es de lejos el salto mas importante que ha tenido el acceso a la justicia, acelerando los procesos y contribuyendo de manera grandiosa a abaratar los costos del mismo. En todo sentido es un éxito.
 
 ## Frecuencia.
 
 Si me refiero más a los documentos que emanan de los juzgados, que a los que presentan los colegas, es porque tengo trato intenso con todos los Juzgados e interacción también intensa pero apenas con un puñado de abogados.  Es una cuestión de frecuencia.
 
-Nunca he recibido un ```pdf``` infectado subido por un colega. En este sentido, parece ---no sé--- que el Judisoft ejercer mayor control.
+Nunca he recibido un ```pdf``` infectado subido por un colega. En este sentido, parece ---no sé--- que el Judisoft ejercer mayor control.Se que loneatandariza cada documento a lo que creo es PDF-A. Yo no produzco nativamente sino una versión cercana.
 
 ## Preliminares.
 
@@ -32,7 +32,7 @@ El análisis [hybrid-analisys.com](https://hybrid-analysis.com/sample/d9ceea207e
 
 ### ¿Como funciona si mi antivirus no detecta nada?
 
-De alguna forma no se activa si no pasa de Windows a un *nix. Es decir de un SO a otro. Como la mayoría usa Windows parecería que no hay razón alguna para preocuparse, pero recuerden que desde Windows 10 creo o quizás ya antes, Windows incluye un API de Linux. Una inmensa minoría usa Darwin. Tal vez ni siquiera saben que usan Darwin: solo compraron la mejor PC guiándose por el precio. Secundariamente son ellos los objetivos. Muy secundariamente. 
+De alguna forma no se activa si no pasa de Windows a un _*nix_. Es decir de un SO a otro. Como la mayoría usa Windows parecería que no hay razón alguna para preocuparse, pero recuerden que desde Windows 10 creo o quizás ya antes, Windows incluye un API de Linux. Una inmensa minoría usa Darwin. Tal vez ni siquiera saben que usan Darwin: solo compraron la mejor PC guiándose por el precio. Secundariamente son ellos los objetivos. Muy secundariamente. 
 
 [^1]: Y hasta donde yo sé, hasta ahora nadie ha usado la ley de transparencia para solicitar el código fuente del Judisoft.
 

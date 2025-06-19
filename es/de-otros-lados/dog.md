@@ -36,7 +36,7 @@ Fue así como la institución recibió menos denuncias cada año. Existe un info
 
 _Posdata: 2024: 1 (uno, one, une)_
 
-Se puede decir, como lo diría la _octavilla de la calle Market_, que la ciudadanía ha perdido con todo esto. Yo soy un tanto liberal así que mi respuesta es no: nadie pierde por tener menos estado.
+Se puede decir, como lo diría la _octavilla de la calle Market_, que la ciudadanía ha perdido con todo esto. Yo soy un tanto liberal así que mi respuesta es no: **nadie pierde por tener menos estado**.
 
 ¿Ganó el Juez que ahora puede contar con no ser molestado? En parte sí, pero en parte no. El ``JEM`` estaba creando autoridad así que el respaldo del mismo a su labor podía ser crucial. 
 
@@ -46,7 +46,7 @@ Si el JEM hubiera pretendido asentar su poder, debía haber alentado la presenta
 
 Lateralmente hubiera sido una interesante  fuente de jurisprudencia importante e inesperada  por su origen en _órgano extra-poder_.
 
-No hace mucho –quien lee esto esta leyendo la primera versión de este documento— la ``CSJ`` —muy a lo _Madison vs. Marbury_— decidió que no podía tener injerencia sobre lo decido por otro poder del estado pero sí sobre el procedimiento impuesto a esa decisión. A ver, como te quedó eso ojo. Como se nota, esta es la manera en que el poder se ejerce.
+No hace mucho –quien lee esto esta leyendo la primera versión de este documento— la ``CSJ`` —muy a lo _Madison vs. Marbury_— decidió que no podía tener injerencia sobre lo decido por otro poder del estado pero sí sobre el procedimiento impuesto a esa decisión. A ver, como te quedó ese ojo. Como se nota, esta es la manera en que el poder se ejerce.
 
 Yo trabajo para barra con barra tras el Poder Judicial. Así que adquiera poder, me beneficia al final. El ``JEM`` acaba de dejar un espacio vacío y la ``CSJ`` tiene facultades disciplinarias suficientes.
 
