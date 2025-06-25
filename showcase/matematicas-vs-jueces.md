@@ -4,6 +4,8 @@ description: "¿Quien gana? Tú decides."
 tags: ["ejecución de sentencia", "cosa juzgada", "procesal"]
 draft: false
 date: 2025-03-09
+params:
+  math: true
 ---
 
 ## Al infinito y más allá.
