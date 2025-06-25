@@ -36,7 +36,7 @@ En la mañana pude generalizar la fórmula: $$a_n=a_1 \cdot \left( \dfrac{1}{5}\
 
 Pero ¿si tenemos un juicio de USD 10,000,000? En realidad tenemos una fórmula que decrece exponencialmente en razón de $$r=\dfrac{1}{5}$$ , asumiendo claro que el Juez nos regula por lo alto. Asi que no importa mucho el multiplicado monto propuesto. Al momento estaríamos iguales.
 
-{{< ipfs url="QmYEzpXVKVVgX2bWnSjye2HU9vBT7dWquuR14bZwJBDq3h" >}}
+{{< ipfs url="QmYEzpXVKVVgX2bWnSjye2HU9vBT7dWquuR14bZwJBDq3h" width="100%" >}}
 
 
 
