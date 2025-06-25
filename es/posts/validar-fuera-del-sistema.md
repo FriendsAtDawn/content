@@ -1,5 +1,5 @@
 ---
-title: "Validar ---pero fuera del Sistema"
+title: "Validar, pero fuera del Sistema"
 description: "Judisoft."
 tags: ["validación", "blockchain"]
 draft: false
@@ -32,7 +32,7 @@ La Corte Suprema puede fortalecer la validación de documentos (especialmente pe
 
 **1. Sugerir se use firma digital de todas las presentaciones electrónicas**
 
-- Proponer ---no hace falta que se obligue, porque cuando los colegas vean la ventaja, se acoplarán de manera espontánea--- que cada escrito presentado por abogados esté firmado digitalmente con un certificado emitido por una autoridad certificadora reconocida por la Corte Suprema, o por la misma Corte Suprema --- véase al respecto {{< link "no-valida" >}}
+- Proponer ---no hace falta que se obligue, porque cuando los colegas vean la ventaja, se acoplarán de manera espontánea--- que cada escrito presentado por abogados esté firmado digitalmente con un certificado emitido por una autoridad certificadora reconocida por la Corte Suprema, o por la misma Corte Suprema --- véase al respecto {{% link "no-valida" %}}
 
 - Esto permitiría que cualquier copia del escrito pueda ser validada de manera independiente, usando software estándar (por ejemplo, Adobe Reader, que permite verificar firmas digitales y certificados de confianza)[^4].
 
