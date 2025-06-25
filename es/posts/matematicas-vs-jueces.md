@@ -32,9 +32,9 @@ Es decir la serie nos puede llevar hasta el sexto término si es que estamos en 
 
 ## Razón.
 
-En la mañana pude generalizar la fórmula: $a_n=a_1 \cdot \left( \dfrac{1}{5}\right)^{n-1}$
+En la mañana pude generalizar la fórmula: $$a_n=a_1 \cdot \left( \dfrac{1}{5}\right)^{n-1}$$
 
-Pero ¿si tenemos un juicio de USD 10,000,000? En realidad tenemos una fórmula que decrece exponencialmente en razón de $r=\dfrac{1}{5}$ , asumiendo claro que el Juez nos regula por lo alto. Asi que no importa mucho el multiplicado monto propuesto. Al momento estaríamos iguales.
+Pero ¿si tenemos un juicio de USD 10,000,000? En realidad tenemos una fórmula que decrece exponencialmente en razón de $$r=\dfrac{1}{5}$$ , asumiendo claro que el Juez nos regula por lo alto. Asi que no importa mucho el multiplicado monto propuesto. Al momento estaríamos iguales.
 
 ![](../../image/grafico.png)
 
@@ -74,7 +74,7 @@ Lo pueden copiar y pegar en https://colab.research.google.com y lo verán en tod
 
 Así que sí la serie es infinita, lo que no te dicen es que es que es infinitamente pequeña.
 
-Que  $\left( \dfrac{1}{5} \right)^{n-1}$ decrece exponencialmente. Y como:
+Que  $$\left( \dfrac{1}{5} \right)^{n-1}$$ decrece exponencialmente. Y como:
 
 $$
 \lim_{n \to \infty} \left( \frac{1}{5} \right)^{n} = 0
