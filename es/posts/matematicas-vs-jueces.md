@@ -2,7 +2,7 @@
 title: "Matemáticas vs. Jueces"
 description: "¿Quien gana? Tú decides."
 tags: ["ejecución de sentencia", "cosa juzgada", "procesal"]
-draft: true
+draft: false
 date: 2025-03-09
 ---
 
