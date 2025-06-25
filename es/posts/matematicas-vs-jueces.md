@@ -38,8 +38,6 @@ Pero ¿si tenemos un juicio de USD 10,000,000? En realidad tenemos una fórmula 
 
 {{< ipfs url="QmYEzpXVKVVgX2bWnSjye2HU9vBT7dWquuR14bZwJBDq3h" width="100%" height="100%" >}}
 
-
-
 Ese gráfico proviene de:
 
 ```python
