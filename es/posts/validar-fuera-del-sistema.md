@@ -40,7 +40,7 @@ Esta, que parece la solución más directa,  es en realidad la más aparatosa. P
 
 **2. Incorporar sellos de tiempo y códigos de verificación**
 
-- Además de la firma digital, agregar un sello de tiempo ---{{< link "firma-rota">}}--- y un código QR o alfanumérico único que vincule el documento a un registro verificable, incluso fuera del sistema principal. Ahora existe uno, pero no valida nada ni siquiera dentro del Sistema.
+- Además de la firma digital, agregar un sello de tiempo ---{{< link "your-e-signature-is-broken">}}--- y un código QR o alfanumérico único que vincule el documento a un registro verificable, incluso fuera del sistema principal. Ahora existe uno, pero no valida nada ni siquiera dentro del Sistema.
 
 - El QR podría llevar a una página de verificación independiente, o permitir la validación offline mediante herramientas proporcionadas por la Corte, o proporcionadas por este enorme reloj que se llama internet.
 

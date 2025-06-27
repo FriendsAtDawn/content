@@ -6,6 +6,7 @@ draft: false
 date: 2025-03-09
 params:
   math: true
+slug: "epic-battles-of-law"
 ---
 
 ## Al infinito y más allá.

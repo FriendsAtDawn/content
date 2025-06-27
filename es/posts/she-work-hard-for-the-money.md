@@ -11,6 +11,8 @@ En numerosos sistemas judiciales de tradición continental—especialmente en La
 
 Una de ellas, apenas discutida pero profundamente injusta, consiste en **negar las costas (honorarios) a los abogados que litigan para lograr la regulación o ejecución de sus propios honorarios**. En otras palabras: si un profesional gana un juicio y luego debe iniciar una acción para que se fije o se abone su retribución, muchas veces los tribunales **le niegan los honorarios por esa segunda intervención**. ¿El argumento? Que “no se puede cobrar por cobrar”, o que se trata de un trámite “vinculado” al pleito anterior.
 
+> Otra es la que se examina brevemente en otra entrada {{< link "epic-battles-of-law">}}, porque no da para mucho, la de que "cobrar por cobrar" es postular una serie infinita. Es cierto. Infinitamente pequeña, infinitesimal.
+
 Este artículo sostiene que tal práctica:
 
 - No tiene un verdadero sustento normativo;
