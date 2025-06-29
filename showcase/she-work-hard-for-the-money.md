@@ -13,9 +13,13 @@ Una de ellas, apenas discutida pero profundamente injusta, consiste en **negar l
 
 > Otra es la que se examina brevemente en otra entrada {{< link "epic-battles-of-law">}}, porque no da para mucho, la de que "cobrar por cobrar" es postular una serie infinita. Es cierto. Infinitamente pequeña, infinitesimal.
 
+Un ejemplo que en sí conlleva extrañas decisiones es el de las costas que son apeladas sólo por el hecho de apelar[^1] que luego es confirmada en segunda instancia pero sin imposición de costas en esa instancia.
+
+[^1]: Tengo que dejar para otro momento la pérdida del valor adquisitivo del dinero, si no, el artículo no tendría fin.
+
 Este artículo sostiene que tal práctica:
 
-- No tiene un verdadero sustento normativo;
+- No tiene un verdadero sustento normativo ---tal vez deba decir no tiene ningún sustento normativo;
 - Es contraria a los principios procesales básicos de justicia, economía y lealtad;
 - Y genera un sistema judicial donde los abogados financian, de su bolsillo, el funcionamiento del propio Poder Judicial.
 
