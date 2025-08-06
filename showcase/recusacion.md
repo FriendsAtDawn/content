@@ -44,7 +44,7 @@ Aunque los tribunales carecen de facultades para remover jueces por sí mismos, 
 
 Desde una perspectiva lógica —más que jurídica— quien puede lo más (remover), puede lo menos (recusar). Este principio tiene respaldo en la doctrina del derecho administrativo y constitucional, especialmente en el marco del principio de razonabilidad de las decisiones jurisdiccionales. Además, ante la contradicción entre el Código Procesal y normas constitucionales o especiales como el LEM, debe preferirse una lectura armónica que preserve la supremacía constitucional.
 
-Desde el punto de vista lingüístico y normativo —siguiendo a Kelsen— las leyes se dirigen al Estado como conjunto de órganos. Por lo tanto, en lo que respecta a normas administrativas o procesales, estas se dirigen a los órganos encargados de aplicarlas, incluidos los jueces. Y a tí, querido lector.
+Desde el punto de vista lingüístico y normativo —siguiendo a Kelsen— las leyes se dirigen al Estado como conjunto de órganos. Por lo tanto, en lo que respecta a normas administrativas o procesales, estas se dirigen a los órganos encargados de aplicarlas, incluidos los jueces. 
 
 ---
 
