@@ -26,9 +26,9 @@ Entrevistador:
 
 [^pp]: # La Regla de Ponderación y su Colisión con la Teoría de Kelsen
 
-## 📚 ¿Qué es la regla de ponderación?
+### 📚 ¿Qué es la regla de ponderación? ¿Y a quién le importa?
 
-La **regla de ponderación** es una herramienta clave en la teoría del derecho desarrollada por **Robert Alexy**. Su función es resolver conflictos entre **principios jurídicos** cuando estos colisionan en un caso concreto.
+La **regla de ponderación** es una idea, o algo similar, en la teoría del derecho desarrollada por **Robert Alexy**. Su función es resolver conflictos entre **principios jurídicos** cuando estos colisionan en un caso concreto.
 
 > "Si dos principios colisionan, uno tiene que ceder en virtud de su menor peso relativo en el caso concreto."
 
@@ -87,7 +87,7 @@ Alexy, en cambio, sostiene que la **dimensión moral del derecho es inevitable**
 ---
 
 Postulante:
- 
+
 <<Perdóname, para mí está la cuestión  es muy interesante planta Enrique.  Si me preguntas a mí, yo creo que también habrían temas mucho más relevantes que plantear cuando estábamos eligiendo un ministro de corte, sobre todo porque a partir de ahí  tendremos el condicionamiento y la preparación filosófica que tiene el individuo que va a ejercer el día de mañana, la más alta magistratura la nación con seguridad hay temas muy interesantes como por ejemplo, siempre suelo decir en el año ... los paraguayos hemos dado un avance increíble en materia de tutela de derechos con la Constitución.  El problema grave de paraguay fue que redactamos una Constitución, desde mi perspectiva,  de primera, de primera línea, en algunos aspectos, sobre todo en materia de derechos fundamentales, pero no lo hemos podido concretar en la práctica.>>
 
 > > Ps: [Villalba Bernie](https://corte.cm.gov.py/perfilbase.aspx?postulante=29234) no tiene chance alguna de llegar a Ministro de la Corte, al menos no esta vez. El Consejo está empantanado de _pedidos._
