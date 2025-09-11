@@ -5,12 +5,13 @@ tags: ["acción causal", "nonsense", "consequences will never be the same"]
 draft: false
 date: 2023-03-14
 featured_featured_image: "/images/003.png"
+slug: "te-hace-danio-solo-a-ti"
 ---
 
 
 # ¿Qué es acción causal?
 
-Bien, aparentemente es la acción que no es cambiaria pero que sin embargo de alguna u otra manera incluye dentro de la documental presentada algún título valor que o ha dejado de ser un título valor o bien no es un título valor. En ambos casos, no es un título valor porque algo que fué _x_ no es _x_ y algo que no ha llegado a ser _x_ no es _x_.
+Bien, aparentemente es la acción que no es cambiaria pero que sin embargo de alguna u otra manera incluye dentro de la documental presentada algún título valor que o ha dejado de ser un título valor o bien no es un título valor. En ambos casos, no es un título valor porque algo que fué  $$x$$ ya no es $$x$$ y algo que no ha llegado $$x$$, aún no es, no es $$x$$.
 
 Lo que insisten en llamar acción causal no es sino una acción ordinaria.
 
@@ -42,5 +43,4 @@ Pero estamos lejos de esa clase de discusiones. Sólo queremos entender mediante
 En ambos casos estoy sujeto a las condiciones de la acción cambiaria.
 
 Las demás acciones que no son esas acciones no es deseable que se las llame _acciones causales_ en tanto que en nada se diferencia de cualquiera otra acción ordinaria.
-
 
