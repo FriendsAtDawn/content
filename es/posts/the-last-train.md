@@ -3,9 +3,8 @@ title: "Accesible al público."
 description: "pki, efirma"
 tags: ["validación", "blockchain"]
 draft: false
-date: 2025-04-25
+date: 2025-09-25
 slug: "servicios-de-confianza"
-
 ---
 
 ## Lo que dice la ley.
