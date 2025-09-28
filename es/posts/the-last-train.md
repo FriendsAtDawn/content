@@ -27,19 +27,16 @@ Pero entonces como sabré si el certificado con el cuál fue firmado cierta reso
 
 Uno puede entrar en la página que da el servicio a la CSJ y… buscar por el CI… ¿Por qué no por CN (Common Name), nombre? Misterio. Y solo estan listados los certificados vigentes. No los que expirarn no los que fueron revocados.
 
-```alert
-Si un certificado ha expirado y no aparece en el CRL, ¿la firma es válida?
+> [!NOTE]
+>Si un certificado ha expirado y no aparece en el CRL, ¿la firma es válida?
 No necesariamente. El hecho de que no esté en el CRL no lo hace válido si ya expiró.
 Validación de una firma digital requiere dos cosas clave:
-
-- El certificado debe estar dentro de su período de validez: Es decir, la fecha actual (o la fecha de la firma, si se usa timestamping) debe estar entre: NotBefore (inicio de validez) NotAfter (fecha de expiración)
-
-- El certificado no debe estar revocado: Verificado mediante CRL o OCSP.
-
-Dicho sea esto, se considera aca que las firmas cuentan con timestamp.
-```
-
-
+>
+>- El certificado debe estar dentro de su período de validez: Es decir, la fecha actual (o la fecha de la firma, si se usa timestamping) debe estar entre: NotBefore (inicio de validez) NotAfter (fecha de expiración)
+>
+>- El certificado no debe estar revocado: Verificado mediante CRL o OCSP.
+>
+>Dicho sea esto, se considera aca que las firmas cuentan con timestamp.
 
 ## Se ve la mentira.
 
