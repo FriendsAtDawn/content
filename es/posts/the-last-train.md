@@ -44,7 +44,7 @@ Seguramente se me objetará que el interesado puede usar el PowerShell de su má
 $ openssl crl -inform DER -text -noout -in efirma2.crl -out efirma2.txt
 ```
 
-Y tener como resultado el el [texto plano](./efirma2.crl)
+Y tener como resultado el el [texto plano](./efirma2.txt)
 
 Más o menos se ve así:
 
