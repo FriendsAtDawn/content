@@ -1,5 +1,5 @@
 ---
-title: "Accesible al público."
+title: "CRL: ¿Accesible al público?."
 description: "Lo que es Accesible"
 tags: ["validación", "blockchain", "pki", "firma digital", "tecnologia"]
 draft: false
@@ -7,7 +7,7 @@ date: 2025-09-25
 slug: "servicios-de-confianza"
 ---
 
-En este texto es un acercamiento al papel de los CRL (Certificate Revocation Lists) y por qué su publicación, aunque obligatoria, no siempre equivale a un servicio accesible y práctico para cualquier usuario.
+Este texto es un acercamiento al papel de los CRL (Certificate Revocation Lists) y por qué su publicación, aunque obligatoria, no siempre equivale a un servicio accesible y práctico para cualquier usuario.
 
 ## Lo que dice la ley.
 
@@ -18,7 +18,7 @@ Dice la ley correspondiente:
 > (...)
 > b) Disponer de un servicio de consulta sobre el estado de validez y revocación de los certificados emitidos accesible al público.
 
-En las bases de datos de los prestadores de servicios de confianza (PSC), normalmente solo se publican las llaves criptográficas que están activas en ese momento. Las llaves que han sido revocadas o dadas de baja —por razones contempladas en los estándares PKI, como expiración, compromiso de seguridad o reemplazo— no suelen aparecer.
+En las bases de datos de los prestadores de servicios de confianza (PSC) del medio, normalmente solo se publican las llaves criptográficas que están activas en ese momento. Las llaves que han sido revocadas o dadas de baja —por razones contempladas en los estándares PKI, como expiración, compromiso de seguridad o reemplazo— no suelen aparecer.
 
 Esto tiene implicancias prácticas: por ejemplo, si recibes un documento firmado digitalmente hace tres años y quieres verificar su firma hoy, la llave que se utilizó podría ya no estar publicada si fue revocada. Como consecuencia, tu software de verificación podría no encontrar la llave y dar un resultado negativo, aunque en el momento de la firma la operación fuera totalmente válida. Por eso, la ausencia de llaves históricas limita la capacidad de realizar auditorías completas o de comprobar la validez de firmas antiguas usando solo la base de datos actual del PSC.
 
