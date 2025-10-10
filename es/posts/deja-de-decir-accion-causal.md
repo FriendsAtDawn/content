@@ -25,7 +25,7 @@ Bueno, la verdad no. Desde quizás 1970 los titulos valores ---los llamo así po
 
 Hoy tenemos la _Ley del Consumidor_ que es un _game changer_ en toda regla. La Argentina hace 20 años que lo tiene. Pero tabién se encuentra inmersa en la confusión que convoca el giro _acción causal_. Prueba de ello es la cantidad de leyes cada vez con menos sentido que se ha dictado desde entonces.
 
-Emitir, por ejemplo, un pagaré, implica la noción de que somos individuos y de que [podemos hacer lo que queramos siempre y cuando la ley no nos lo niegue](https://bacn.gov.py/archivos/9580/CONSTITUCION_ORIGINAL_FIRMADA.pdf#page=5).
+Emitir, por ejemplo, un pagaré, implica la noción de que somos individuos y de que [podemos hacer lo que queramos siempre y cuando la ley no nos lo niegue](https://bacn.gov.py/archivos/CONSTITUCION_ORIGINAL_FIRMADA.pdf#page=5).
 
 ![](https://bafkreiedjzycgirlauxdagqg6x3uekdnkl5gxs26eh3bw656bvt3u3m4ne.ipfs.nftstorage.link/)
 
