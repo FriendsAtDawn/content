@@ -1,7 +1,7 @@
 ---
 title: "Accesible al público."
 description: "pki, efirma"
-tags: ["validación", "blockchain"]
+tags: ["validación", "blockchain", "pki", "firma digital", "tecnologia"]
 draft: false
 date: 2025-09-25
 slug: "servicios-de-confianza"

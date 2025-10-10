@@ -1,7 +1,7 @@
 ---
 title: "Validar, pero fuera del Sistema"
 description: "Judisoft."
-tags: ["validación", "blockchain"]
+tags: ["validación", "blockchain", "pki", "tecnología", "servicios de confianza"]
 draft: false
 date: 2025-04-25
 slug: "validar-fuera-del-sistema"

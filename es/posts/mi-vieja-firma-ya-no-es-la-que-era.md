@@ -1,7 +1,7 @@
 ---
 title: "Mi vieja firma ya no es la que era."
 description: "El algoritmo de la confusión."
-tags: ["firma", "electrónica", "wrong", "brujería"]
+tags: ["firma", "electrónica", "wrong", "firma digital", "pki", "tecnolgía"]
 draft: false
 date: 2025-01-20
 slug: "my-old-gray-mare"

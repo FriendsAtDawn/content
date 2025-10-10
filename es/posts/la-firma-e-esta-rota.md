@@ -4,7 +4,7 @@ description: "And all the King's horses
              and all The King's men,  
              couldn't put Humpty  
              together again"
-tags: ["firma", "e-firma", "timestamp"]
+tags: ["firma", "e-firma", "timestamp", "tecnologia", "pki"]
 draft: false
 date: 2024-09-02
 featured_image: "/images/stampel.png"
