@@ -1,29 +1,30 @@
 ---
 title: "Accesible al público."
-description: "pki, efirma"
+description: "Lo que es Accesible"
 tags: ["validación", "blockchain", "pki", "firma digital", "tecnologia"]
 draft: false
 date: 2025-09-25
 slug: "servicios-de-confianza"
 ---
 
+En este texto es un acercamiento al papel de los CRL (Certificate Revocation Lists) y por qué su publicación, aunque obligatoria, no siempre equivale a un servicio accesible y práctico para cualquier usuario.
+
 ## Lo que dice la ley.
 
 Dice la ley correspondiente:
 
-```yaml
-2. Los prestadores de servicios de confianza que expidan certificados electrónicos, deben cumplir también las siguientes obligaciones:
+> 2. Los prestadores de servicios de confianza que expidan certificados electrónicos, deben cumplir también las siguientes obligaciones:
+> a) No almacenar ni copiar, ...
+> (...)
+> b) Disponer de un servicio de consulta sobre el estado de validez y revocación de los certificados emitidos accesible al público.
 
-a) No almacenar ni copiar, ...
+En las bases de datos de los prestadores de servicios de confianza (PSC), normalmente solo se publican las llaves criptográficas que están activas en ese momento. Las llaves que han sido revocadas o dadas de baja —por razones contempladas en los estándares PKI, como expiración, compromiso de seguridad o reemplazo— no suelen aparecer.
 
-(...)
+Esto tiene implicancias prácticas: por ejemplo, si recibes un documento firmado digitalmente hace tres años y quieres verificar su firma hoy, la llave que se utilizó podría ya no estar publicada si fue revocada. Como consecuencia, tu software de verificación podría no encontrar la llave y dar un resultado negativo, aunque en el momento de la firma la operación fuera totalmente válida. Por eso, la ausencia de llaves históricas limita la capacidad de realizar auditorías completas o de comprobar la validez de firmas antiguas usando solo la base de datos actual del PSC.
 
-b) Disponer de un servicio de consulta sobre el estado de validez y revocación de los certificados emitidos accesible al público.
-```
+Pero entonces, ¿cómo puedo saber si un certificado utilizado para firmar una resolución de hace dos años era realmente válido, si no existe información sobre los certificados que fueron revocados? La cuestión es que, aunque todavía podría comprobar si el certificado estaba vigente en la fecha de emisión —por ejemplo, verificando su período de validez—, no hay manera de confirmar si había sido revocado por otras razones, como un compromiso de seguridad.
 
-Uno puede consultar las bases de datos de los prestadores de servicio de confianza y hallar que no publican sino las llaves actuales, no las que ya han dado de baja por alguna de las razones por las que el standard pki admite.
-
-Pero entonces como sabré si el certificado con el cuál fue firmado cierta resolución de hace dos añs es válido si no hay información acerca los certificados revocados? —Sobreentiendo que aun puedo corroborar que el vencido valida.
+Por ejemplo, imagina que un funcionario firmó digitalmente una resolución en 2023 usando un certificado que parecía válido. Hoy, al intentar verificar la firma, la base de datos del prestador de servicios de confianza solo muestra certificados activos. Si aquel certificado fue revocado en 2024 por haber sido comprometido, no habría forma de detectarlo usando solo la base actual. Esto ilustra por qué la ausencia de información histórica sobre revocaciones limita la trazabilidad y la certeza sobre la validez de firmas antiguas.
 
 Uno puede entrar en la página que da el servicio a la CSJ y… buscar por el CI… ¿Por qué no por CN (Common Name), nombre? Misterio. Y solo estan listados los certificados vigentes. No los que expirarn no los que fueron revocados.
 
@@ -34,19 +35,19 @@ Validación de una firma digital requiere dos cosas clave: 1. El certificado deb
 
 ## Se ve la mentira.
 
-Ah, estoy faltando a la verdad, sí se publica el crl. Cualquiera puede bajarlo desde acá: https://efirma.com.py/repositorio/efirma2.crl. 
+Ah, estoy siendo un poco injusto: sí se publica el CRL. Cualquiera puede descargarlo desde aquí: [https://efirma.com.py/repositorio/efirma2.crl](https://efirma.com.py/repositorio/efirma2.crl).
 
-Pero si lo bajan no les aseguro que puedan leer nada porque es un archivo binario, es decir, no es texto.
-
-Seguramente se me objetará que el interesado puede usar el PowerShell de su máquina  y escribir algo asi:
+El detalle es que, si lo bajan, no van a poder leerlo directamente, porque es un archivo binario, no un archivo de texto. Para interpretarlo, se necesita usar alguna herramienta técnica, como OpenSSL o PowerShell, por ejemplo:
 
 ```bash
 $ openssl crl -inform DER -text -noout -in efirma2.crl -out efirma2.txt
 ```
 
-Y tener como resultado el el [texto plano](./efirma2.txt)
+Esto funciona, pero plantea un problema práctico: la ley exige “disponer de un servicio de consulta sobre el estado de validez y revocación de los certificados emitidos accesible al público”. La intención no es solo publicar un archivo técnico que pocos pueden leer, sino ofrecer un servicio donde cualquier persona pueda consultar fácilmente si un certificado está vigente o ha sido revocado, sin necesidad de manipular archivos binarios o comandos especializados.
 
-Más o menos se ve así:
+Por ejemplo, en un escenario ideal, uno podría ingresar el número de un certificado en un portal web y obtener al instante su estado: “válido”, “revocado” o “expirado”. Esto sería un servicio de consulta realmente accesible y conforme a la ley, mucho más práctico que descargar un CRL y convertirlo manualmente.
+
+Para que se entienda mejor, si convertimos el CRL a texto plano, más o menos se ve así:
 
 ```
 Certificate Revocation List (CRL):
@@ -70,9 +71,14 @@ Revoked Certificates:
         CRL entry extensions:
             X509v3 CRL Reason Code: 
                 Unspecified
-
 ```
 
-Pero sinceramente no creo que sea a eso lo que la ley se sefiere. 
+Esto nos dice varias cosas:
 
-Sino que las personas puedan saber si un certificado expirado ha sido emitido por el proveedor y si el mismo fue revocado.
+1. Quién emitió el CRL: En este caso, la autoridad certificadora (VIT S.A.), identificada con su RUC y detalles de la organización.
+2. Actualización: La lista se actualizó por última vez el 27 de septiembre de 2025 y se espera la siguiente actualización el 28 de septiembre. Esto indica cada cuánto se publica la información.
+3. Número de CRL y clave de la autoridad: Sirven para identificar esta lista concreta y para verificar que no ha sido modificada.
+4. Certificados revocados: Aquí aparece el número de serie de cada certificado que fue revocado, la fecha de revocación y, en algunos casos, la razón. En el ejemplo, la razón se dejó como “Unspecified” (no especificada).
+
+En pocas palabras, un CRL nos da un listado oficial de certificados que ya no son confiables, pero todavía necesita interpretarse con herramientas técnicas o un servicio de consulta accesible para que cualquier persona pueda usarlo fácilmente.
+
