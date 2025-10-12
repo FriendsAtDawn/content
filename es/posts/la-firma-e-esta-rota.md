@@ -13,7 +13,7 @@ slug: "your-e-signature-is-broken"
 
 **Las siguientes líneas cargan con dos o tres simplificaciones, porque entiendo que su extensión implican algo más que el discurso propio del derecho. Anoto que la e-sign está definida por sumas y por potenciaciones a números primos muy altos; basta saber eso para conocer la naturaleza de lo que elido.**
 
-Este párrafo introduce el concepto de firma electrónica y da una breve explicación sobre la base criptográfica que la respalda. En términos simples, la firma electrónica usa algoritmos matemáticos complejos para garantizar la seguridad y la autenticidad del documento firmado, utilizando claves criptográficas que son únicas y prácticamente imposibles de falsificar. Este tipo de firma garantiza que el contenido no se ha modificado después de la firma, lo que le otorga un nivel de integridad bastante alto.
+En términos simples, la firma electrónica usa algoritmos matemáticos complejos para garantizar la seguridad y la autenticidad del documento firmado, utilizando claves criptográficas que son únicas y prácticamente imposibles de falsificar. Este tipo de firma garantiza que el contenido no se ha modificado después de la firma, lo que le otorga un nivel de integridad bastante alto.
 
 ---
 
@@ -29,7 +29,7 @@ Aunque la firma electrónica es extremadamente confiable, siempre existe el ries
 
 **2. La voluntad expresada es connatural a la firma que refrenda tal voluntad.**
 
-Este punto señala que la firma electrónica refleja la voluntad del firmante en el momento de la firma, de la misma manera que lo haría una firma manuscrita. La firma electrónica no solo asegura la identidad del firmante, sino también su intención de vincularse al contenido del documento, lo que le da validez legal en muchos sistemas jurídicos.
+La firma electrónica refleja la voluntad del firmante en el momento de la firma, de la misma manera que lo haría una firma manuscrita. La firma electrónica no solo asegura la identidad del firmante, sino también su intención de vincularse al contenido del documento, lo que le da validez legal en muchos sistemas jurídicos.
 
 **2.2. El transcurso del tiempo sucede por fuera del mismo y no depende de la voluntad de los firmantes o del firmante.**
 
@@ -37,7 +37,7 @@ El transcurso del tiempo es una variable externa que no está influenciada por l
 
 **2.2.3. El tiempo debe hacerse constar de una manera externa al mismo.**
 
-Aquí se resalta que el tiempo en que se firma el documento debe registrarse de manera independiente del firmante, para asegurar que no pueda ser alterado. Esto generalmente se logra mediante un sello de tiempo proporcionado por una autoridad certificadora, que actúa como testigo confiable de la hora y fecha de la firma.
+Así que, va de suyo ---como diría un Juez--- el tiempo en que se firma el documento debe registrarse de manera independiente del firmante, para asegurar que no pueda ser alterado. Esto generalmente se logra mediante un sello de tiempo proporcionado por una autoridad certificadora, que actúa como testigo confiable de la hora y fecha de la firma.
 
 **2.2.3.4. Esta era la labor del Notario y esta era la labor del Secretario.**
 
@@ -47,7 +47,7 @@ Históricamente, el notario o el secretario judicial tenía la responsabilidad d
 
 **3. La fecha de la firma electrónica utilizada está fijada por el que la expide.**
 
-En este punto se destaca que la fecha en que se expide la firma electrónica es determinada por el sistema que la emite. Esto puede ser una ventaja, ya que el proceso es automatizado y asegura que la fecha registrada sea precisa.
+Pero en nuestro caso  la fecha en que se expide la firma electrónica es determinada por el sistema operativo del usuario que la emite. Esto puede ser una ventaja, ya que el proceso es automatizado y asegura que la fecha registrada sea precisa.
 
 **3.3. El que la expide puede equivocarse o mentir.**
 
@@ -55,17 +55,15 @@ Aunque los sistemas de firma electrónica son generalmente confiables, siempre e
 
 **3.3.1. Es natural que entre una disonancia entre una y otra valdrá la fecha puesta por el Judisoft.**
 
-Aquí se hace referencia a la posible discrepancia entre la fecha registrada por el software utilizado (Judisoft) y la real en que se firmó el documento. Esto podría generar incertidumbre si no se cuenta con un sello de tiempo independiente que valide la firma.
+Ante la posible discrepancia entre la fecha registrada por el software utilizado (Judisoft) y la real en que se firmó el documento. Esto podría generar incertidumbre si no se cuenta con un sello de tiempo independiente que valide la firma.
 
 **3.3.1.2 El Judisoft decide la fecha por sí mismo.**
-
-Este punto subraya que la fecha en los sistemas automatizados de firma electrónica está determinada por el software mismo, lo que puede ser problemático si el sistema no está configurado adecuadamente o si hay alguna discrepancia con la hora real del evento.
 
 ---
 
 **4. La firma electrónica de la forma en que se la ha concebido e impuesta en el medio, está rota. No vale, ni sirve a sus fines.**
 
-Este es el punto central de esta entrada, en el que argumenta que la firma electrónica tal como se ha implementado actualmente no cumple con su propósito original. Se sugiere que el sistema, en muchos casos, no es lo suficientemente robusto para garantizar la seguridad y la validez temporal de los documentos, debido a fallos en la infraestructura del timestamping o en la gestión de la fecha.
+La firma electrónica tal como se ha implementado actualmente no cumple con su propósito original. El sistema, en muchos casos, no es lo suficientemente robusto para garantizar la seguridad y la validez temporal de los documentos, debido a fallos en la infraestructura del timestamping o en la gestión de la fecha.
 
 ---
 
