@@ -65,13 +65,13 @@ Este punto subraya que la fecha en los sistemas automatizados de firma electrón
 
 **4. La firma electrónica de la forma en que se la ha concebido e impuesta en el medio, está rota. No vale, ni sirve a sus fines.**
 
-Este es el punto central de tu entrada, en el que argumentas que la firma electrónica tal como se ha implementado actualmente no cumple con su propósito original. Se sugiere que el sistema, en muchos casos, no es lo suficientemente robusto para garantizar la seguridad y la validez temporal de los documentos, debido a fallos en la infraestructura del timestamping o en la gestión de la fecha.
+Este es el punto central de esta entrada, en el que argumenta que la firma electrónica tal como se ha implementado actualmente no cumple con su propósito original. Se sugiere que el sistema, en muchos casos, no es lo suficientemente robusto para garantizar la seguridad y la validez temporal de los documentos, debido a fallos en la infraestructura del timestamping o en la gestión de la fecha.
 
 ---
 
 **¿Qué ocurre si una firma no lleva sello de tiempo?**
 
-Este punto expande la discusión sobre la importancia del sello de tiempo. Como se menciona, el sello de tiempo no solo asegura que el documento no ha sido alterado desde que se firmó, sino que también proporciona una prueba independiente de que la firma fue efectuada en un momento determinado. Sin este sello, sería mucho más difícil probar que un documento no fue modificado después de su firma, lo que podría generar disputas legales costosas.
+Como se menciona, el sello de tiempo no solo asegura que el documento no ha sido alterado desde que se firmó, sino que también proporciona una prueba independiente de que la firma fue efectuada en un momento determinado. Sin este sello, sería mucho más difícil probar que un documento no fue modificado después de su firma, lo que podría generar disputas legales costosas.
 
 **El sellado de tiempo es esencialmente un testigo independiente. Proporciona las pruebas necesarias para demostrar que el documento no ha cambiado desde que se envió el hash del documento a la TSA en el momento de la firma.**
 
