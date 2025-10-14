@@ -41,7 +41,6 @@ graph TD
     L ---|"Firma digital → autoría"|B
     L ---|"Hash → integridad"|D
     L ---|"Certificado → fecha cierta"|E
-
 ```
 Este esquema recuerda a los **árboles de Merkle** utilizados en la tecnología blockchain: estructuras donde cada nodo depende del hash de los datos anteriores, de modo que cualquier alteración rompe la cadena entera. Aquí, el certificado judicial puede verse como el nodo raíz, del cual dependen los escritos individuales a través de sus hashes y firmas. No se trata de una blockchain en sentido estricto, pero sí de una aplicación del mismo principio de encadenamiento de evidencias digitales.
 
