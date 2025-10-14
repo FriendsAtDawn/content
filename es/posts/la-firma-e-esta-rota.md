@@ -37,7 +37,7 @@ El transcurso del tiempo es una variable externa que no está influenciada por l
 
 **2.2.3. El tiempo debe hacerse constar de una manera externa al mismo.**
 
-Así que, va de suyo ---como diría un Juez--- el tiempo en que se firma el documento debe registrarse de manera independiente del firmante, para asegurar que no pueda ser alterado. Esto generalmente se logra mediante un sello de tiempo proporcionado por una autoridad certificadora, que actúa como testigo confiable de la hora y fecha de la firma.
+Así que, va de suyo ---como diría un Juez cuando sacará una conclusión dudosa--- el tiempo en que se firma el documento debe registrarse de manera independiente del firmante, para asegurar que no pueda ser alterado. Esto generalmente se logra mediante un sello de tiempo proporcionado por una autoridad certificadora, que actúa como testigo confiable de la hora y fecha de la firma.
 
 **2.2.3.4. Esta era la labor del Notario y esta era la labor del Secretario.**
 
@@ -47,7 +47,7 @@ Históricamente, el notario o el secretario judicial tenía la responsabilidad d
 
 **3. La fecha de la firma electrónica utilizada está fijada por el que la expide.**
 
-Pero en nuestro caso  la fecha en que se expide la firma electrónica es determinada por el sistema operativo del usuario que la emite. Esto puede ser una ventaja, ya que el proceso es automatizado y asegura que la fecha registrada sea precisa.
+Pero en nuestro caso  la fecha en que se expide la firma electrónica es determinada por el sistema operativo del usuario que la emite. Esto puede ser una ventaja, ya que el proceso es automatizado y asegura que la fecha registrada sea precisa... o más o menos. Usualmente pasa por configurar el _locale_ de los Sistemas Operativos y señalar la hora correcta. O mejor, leer la fecha desde un servidor, por ejemplo: ntp.intn.gov.py.
 
 **3.3. El que la expide puede equivocarse o mentir.**
 
