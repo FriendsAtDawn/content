@@ -42,6 +42,7 @@ El paso siguiente es el más interesante. Si el escrito presentado está **firma
     L ---|"Hash → integridad"|D
     L ---|"Certificado → fecha cierta"|E
 {{< /mermaid >}}
+
 Este esquema recuerda a los **árboles de Merkle** utilizados en la tecnología blockchain: estructuras donde cada nodo depende del hash de los datos anteriores, de modo que cualquier alteración rompe la cadena entera. Aquí, el certificado judicial puede verse como el nodo raíz, del cual dependen los escritos individuales a través de sus hashes y firmas. No se trata de una blockchain en sentido estricto, pero sí de una aplicación del mismo principio de encadenamiento de evidencias digitales.
 
 En conjunto, este avance inaugura una forma de trazabilidad y validación documental que puede evolucionar hacia un modelo de **transparencia verificable**: los documentos no sólo están en el sistema, sino que pueden ser comprobados desde afuera, con independencia tecnológica. El desafío será institucionalizar este mecanismo de modo que su valor probatorio se reconozca expresamente, y que la Corte, quizá sin proponérselo del todo, consolide así el esqueleto técnico de un futuro registro judicial de confianza distribuida.
