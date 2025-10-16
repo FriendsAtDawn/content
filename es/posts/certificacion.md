@@ -14,7 +14,7 @@ El hash —una huella digital generada matemáticamente a partir del contenido d
 El paso siguiente es el más interesante. Si el escrito presentado está **firmado digitalmente**, esa firma vincula de modo criptográfico la identidad del abogado con el contenido exacto del archivo. En consecuencia, la combinación del archivo firmado y del certificado emitido por la Corte genera una cadena de confianza completa: la firma acredita la autoría, el hash acredita la integridad, y el certificado acredita la fecha de presentación. Con esas tres piezas, el sistema judicial empieza a generar una prueba digital autónoma, verificable incluso por fuera de su propia plataforma.
 
 {{< mermaid >}}
- graph TD
+graph TD
     A[Escrito del abogado] --> B[Firma digital]
     B --> C{Archivo firmado}
     C --> D[Hash del archivo]
