@@ -14,39 +14,41 @@ El hash —una huella digital generada matemáticamente a partir del contenido d
 El paso siguiente es el más interesante. Si el escrito presentado está **firmado digitalmente**, esa firma vincula de modo criptográfico la identidad del abogado con el contenido exacto del archivo. En consecuencia, la combinación del archivo firmado y del certificado emitido por la Corte genera una cadena de confianza completa: la firma acredita la autoría, el hash acredita la integridad, y el certificado acredita la fecha de presentación. Con esas tres piezas, el sistema judicial empieza a generar una prueba digital autónoma, verificable incluso por fuera de su propia plataforma.
 
 ```goat
-        Abogado
-   +------------------------+
-   | Escrito del abogado    |
-   +------------------------+
-               |
-               v
-   +------------------------+
-   | Firma digital          |
-   +------------------------+
-               |
-               v
-         +-------------+
-         | Archivo     |
-         | firmado     |
-         +-------------+
-               |
-               v
-   +------------------------+
-   | Hash del archivo       |
-   +------------------------+
-               |
-               v
-   +--------------------------------------+
-   | Certificado de presentación emitido  |
-   | por la Corte                         |
-   +--------------------------------------+
-         Corte Suprema
+                     ┌─────────────────────────────┐
+                     │  Escrito del abogado        │
+                     └─────────────┬───────────────┘
+                                   │
+                                   ▼
+                     ┌─────────────────────────────┐
+                     │      Firma digital          │
+                     └─────────────┬───────────────┘
+                                   │
+                                   ▼
+                           ┌─────────────┐
+                           │ Archivo     │
+                           │ firmado     │
+                           └─────┬───────┘
+                                 │
+                                 ▼
+                     ┌─────────────────────────────┐
+                     │      Hash del archivo       │
+                     └─────────────┬───────────────┘
+                                   │
+                                   ▼
+                     ┌─────────────────────────────┐
+                     │ Certificado de presentación │
+                     │ emitido por la Corte        │
+                     └─────────────────────────────┘
+                                 Corte Suprema
 
-Leyenda:
-  Firma digital → autoría
-  Hash → integridad
-  Certificado → fecha cierta
+─────────────── Subgrupos ───────────────
+Abogado: Escrito del abogado, Firma digital
+Corte Suprema: Certificado de presentación emitido por la Corte
 
+─────────────── Leyenda ────────────────
+→ Firma digital = autoría
+→ Hash = integridad
+→ Certificado = fecha cierta
 ```
 Este esquema recuerda a los **árboles de Merkle** utilizados en la tecnología blockchain: estructuras donde cada nodo depende del hash de los datos anteriores, de modo que cualquier alteración rompe la cadena entera. Aquí, el certificado judicial puede verse como el nodo raíz, del cual dependen los escritos individuales a través de sus hashes y firmas. No se trata de una blockchain en sentido estricto, pero sí de una aplicación del mismo principio de encadenamiento de evidencias digitales.
 
