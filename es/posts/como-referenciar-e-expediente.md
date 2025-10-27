@@ -10,7 +10,7 @@ slug: "como-referenciar-en-el-expedienté-electronico"
 
 ## Fojas.
 
-No podemos atarearnos con nada sin nombrarlo. Y el nombre tiene que reunir ciertas características, pero la que nos importa es que sea único dentro del universo de cosas que queremos nombrar, que no dé lugar a equívocos. Un ejemplo famoso es el de Odiseo que se hace nombrar << Nadie >> en la cueva de Polifemo. De esa manera no importa que este grite que << Nadie lo mata >>. Nadie acudirá en su auxilio.
+No podemos actuar sobre algo sin antes darle un nombre. Y ese nombre tiene un requisito clave: debe ser único, para que nadie lo confunda con otra cosa. Un ejemplo clásico es Odiseo, que en la cueva de Polifemo se hace llamar «Nadie». Gracias a eso, cuando Polifemo grita «¡Nadie me ha matado!», nadie acude en su auxilio. Esto muestra cómo un nombre puede cambiar por completo la forma en que otros perciben lo que hacemos.
 
 Antes cuando teníamos que nombrar una pieza del expediente ---digamos un escrito que se presentó en autos--- lo único que teníamos que usar era una fórmula tipo << _a_ fojas _x_ de los autos _a_ | desde fojas _x_ a fojas _y_ >>.
 
