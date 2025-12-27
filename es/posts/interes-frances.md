@@ -7,6 +7,10 @@ date: 2023-03-09
 slug: "interes-frances"
 ---
 
+Nota: Esta nota está mejorada en: https://wilsonvillalba.substack.com/p/la-calculadora-ilegal-del-bcp.
+
+---
+
 
 ## Interés Francés.
 
@@ -78,5 +82,4 @@ Ninguno en realidad, salvo la disposición de la ley que prohibe hacer la operac
 Yo no sé de esas cosas. Me parece bueno que la gente acceda a creditos baratos y me parece que está mal que se disfrace innecesariamente al interés compuesto bajo otra formula también estacocástica como es la del interés francés. Sería mejor informar al cliente, en vez de decirle que es 21%, indicarle que es del 24%... No creo que en nuestro caso vaya más de allá.
 
 En cuanto lo demás, no se puede <<arreglar>> las tasas de interés. No se puede <<arreglar>> la economía, ni el dinero, ni el Estado, ni el Derecho... Porque forman parte de una larga cadena de explotación. Un sistema en el cual, queramos o no, confiamos todos.
-
 

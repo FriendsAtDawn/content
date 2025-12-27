@@ -11,6 +11,10 @@ featured_image: "/images/stampel.png"
 slug: "your-e-signature-is-broken"
 ---
 
+Nota: basado en esta entrada, escribí una mejorada en: https://wilsonvillalba.substack.com/p/en-paraguay-la-firma-electronica. 
+
+—
+
 **Las siguientes líneas cargan con dos o tres simplificaciones, porque entiendo que su extensión implican algo más que el discurso propio del derecho. Anoto que la e-sign está definida por sumas y por potenciaciones a números primos muy altos; basta saber eso para conocer la naturaleza de lo que elido.**
 
 En términos simples, la firma electrónica usa algoritmos matemáticos complejos para garantizar la seguridad y la autenticidad del documento firmado, utilizando claves criptográficas que son únicas y prácticamente imposibles de falsificar. Este tipo de firma garantiza que el contenido no se ha modificado después de la firma, lo que le otorga un nivel de integridad bastante alto.
